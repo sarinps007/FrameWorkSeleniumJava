@@ -1,0 +1,15 @@
+com\payroll\pageobjects\Invoice.class
+com\payroll\pageobjects\Deduction.class
+com\payroll\pageobjects\Payslip.class
+com\payroll\pageobjects\LoginPage.class
+com\payroll\utility\ListenerClass.class
+com\payroll\pageobjects\HomePage.class
+com\payroll\utility\ExcelLibrary.class
+com\payroll\pageobjects\Timesheet.class
+com\payroll\baseclass\baseclass.class
+com\payroll\actiondriver\Action.class
+com\payroll\utility\Log.class
+com\payroll\pageobjects\Report.class
+com\payroll\utility\ExtentManager.class
+com\payroll\pageobjects\Clients.class
+com\payroll\pageobjects\Workers.class

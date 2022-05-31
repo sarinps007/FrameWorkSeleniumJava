@@ -1,0 +1,3 @@
+com\payroll\testcases\E2E.class
+com\payroll\testcases\HomePageTest.class
+com\payroll\testcases\LoginPageTest.class

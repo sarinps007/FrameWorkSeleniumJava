@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-06T19:53:36 IST" name="Suite" finished-at="2022-05-06T19:54:01 IST" duration-ms="24793">
+    <groups>
+      <group name="Smoke">
+        <method signature="LoginPageTest.LoginTest()[pri:0, instance:com.payroll.testcases.LoginPageTest@692f203f]" name="LoginTest" class="com.payroll.testcases.LoginPageTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-05-06T19:53:36 IST" name="Test" finished-at="2022-05-06T19:54:01 IST" duration-ms="24793">
+      <class name="com.payroll.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.payroll.testcases.HomePageTest@235834f2]" started-at="2022-05-06T19:53:36 IST" name="setup" finished-at="2022-05-06T19:53:41 IST" duration-ms="4924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePage()[pri:0, instance:com.payroll.testcases.HomePageTest@235834f2]" started-at="2022-05-06T19:53:41 IST" name="verifyHomePage" finished-at="2022-05-06T19:53:46 IST" duration-ms="5577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testcases.HomePageTest@235834f2]" started-at="2022-05-06T19:53:46 IST" name="tearDown" finished-at="2022-05-06T19:53:46 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.payroll.testcases.HomePageTest -->
+      <class name="com.payroll.testcases.LoginPageTest">
+        <test-method is-config="true" signature="BeforeSuiteLog()[pri:0, instance:com.payroll.testcases.LoginPageTest@692f203f]" started-at="2022-05-06T19:53:36 IST" name="BeforeSuiteLog" finished-at="2022-05-06T19:53:36 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuiteLog -->
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.payroll.testcases.LoginPageTest@692f203f]" started-at="2022-05-06T19:53:36 IST" name="loadConfig" finished-at="2022-05-06T19:53:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.payroll.testcases.LoginPageTest@692f203f]" started-at="2022-05-06T19:53:36 IST" name="setup" finished-at="2022-05-06T19:53:41 IST" duration-ms="5017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginTest()[pri:0, instance:com.payroll.testcases.LoginPageTest@692f203f]" started-at="2022-05-06T19:53:41 IST" name="LoginTest" finished-at="2022-05-06T19:53:50 IST" duration-ms="9486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testcases.LoginPageTest@692f203f]" started-at="2022-05-06T19:53:50 IST" name="tearDown" finished-at="2022-05-06T19:53:50 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.payroll.testcases.LoginPageTest@692f203f]" started-at="2022-05-06T19:53:50 IST" name="setup" finished-at="2022-05-06T19:53:54 IST" duration-ms="3572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginInvalid(java.lang.String,java.lang.String)[pri:0, instance:com.payroll.testcases.LoginPageTest@692f203f]" started-at="2022-05-06T19:53:54 IST" name="loginInvalid" data-provider="getlogin" finished-at="2022-05-06T19:53:55 IST" duration-ms="1020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carolwrong]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1q2w3e4r]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testcases.LoginPageTest@692f203f]" started-at="2022-05-06T19:53:55 IST" name="tearDown" finished-at="2022-05-06T19:53:55 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.payroll.testcases.LoginPageTest@692f203f]" started-at="2022-05-06T19:53:55 IST" name="setup" finished-at="2022-05-06T19:53:59 IST" duration-ms="3478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginInvalid(java.lang.String,java.lang.String)[pri:0, instance:com.payroll.testcases.LoginPageTest@692f203f]" started-at="2022-05-06T19:53:59 IST" name="loginInvalid" data-provider="getlogin" finished-at="2022-05-06T19:54:00 IST" duration-ms="1605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carol]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1q2w3e4rwrong]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testcases.LoginPageTest@692f203f]" started-at="2022-05-06T19:54:00 IST" name="tearDown" finished-at="2022-05-06T19:54:01 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="End()[pri:0, instance:com.payroll.testcases.LoginPageTest@692f203f]" started-at="2022-05-06T19:54:01 IST" name="End" finished-at="2022-05-06T19:54:01 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.quit()" because the return value of "java.lang.ThreadLocal.get()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.quit()" because the return value of "java.lang.ThreadLocal.get()" is null
+at com.payroll.baseclass.baseclass.End(baseclass.java:83)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+at org.testng.TestRunner.afterRun(TestRunner.java:893)
+at org.testng.TestRunner.run(TestRunner.java:606)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:com.payroll.testcases.LoginPageTest@692f203f]" started-at="2022-05-06T19:54:01 IST" name="aftersuite" finished-at="2022-05-06T19:54:01 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- com.payroll.testcases.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
