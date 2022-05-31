@@ -1,4 +1,4 @@
-SeleniumFrameWork
+SeleniumFrameWork following 
 TestNG
-Maven
 POM
+and Maven as build management tool
