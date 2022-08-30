@@ -31,6 +31,7 @@ import org.testng.annotations.BeforeTest;
 	public void BeforeSuiteLog() {
 		ExtentManager.setExtent();
 		DOMConfigurator.configure("log4j.xml");
+		//Iam writing this to show u github actions
 	}
 	
 	public static WebDriver getDriver() {
